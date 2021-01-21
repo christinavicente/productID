@@ -1,0 +1,11 @@
+<web-app>
+  <display-name>Widget Store</display-name>
+  <servlet>
+    <servlet-name>drink-id</servlet-name>
+    <servlet-class>org.hcl.ProductIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>drink-id</servlet-name>
+    <url-pattern>/drink</url-pattern>
+  </servlet-mapping>
+</web-app>
